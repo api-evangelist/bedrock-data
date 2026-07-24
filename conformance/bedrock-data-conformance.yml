@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.bedrockdata.ai/legal
+notes: >-
+  Certifications and compliance frameworks published in the Bedrock Labs, Inc.
+  Security Addendum and Data Processing Addendum on the /legal page. No public
+  OpenAPI is available, so cross-cutting API standards below are asserted only
+  where the provider states them explicitly (not derived from a spec).
+standards:
+  - id: soc2-type2
+    conforms: true
+    evidence: Security Addendum states SOC 2 Type II compliance
+  - id: iso-27001
+    conforms: true
+    evidence: Security Addendum states ISO/IEC 27001 adherence
+  - id: gdpr
+    conforms: true
+    evidence: Data Processing Addendum provides GDPR controller/processor framework
+  - id: ccpa
+    conforms: true
+    evidence: Data Processing Addendum provides CCPA compliance provisions
+certifications:
+  - SOC 2 Type II
+  - ISO/IEC 27001
+compliance_frameworks:
+  - GDPR
+  - CCPA

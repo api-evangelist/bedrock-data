@@ -1,8 +1,29 @@
 aid: bedrock-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bedrock-data.png
 name: Bedrock Data
-description: 'Bedrock Data is a company surfaced as a portfolio company of greylock and added to the API
-  Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Bedrock Data (Bedrock Labs, Inc.) is a data security posture management (DSPM)
+  company that helps organizations discover, classify, and control sensitive data
+  across cloud, SaaS, and on-premises environments. Its platform is built on a
+  unified Metadata Lake that combines data sensitivity, lineage, identity and
+  access entitlements, and data-flow analysis, layered with AI-driven
+  classification and a natural-language policy engine, and a zero-data-access
+  architecture in which analysis runs where the data already resides. Bedrock
+  advertises a Graph API (GraphQL) and MCP integration surface for downstream
+  security tooling such as SIEM, Wiz, Sysdig, and Jira, though no public developer
+  documentation or OpenAPI is currently available. The company is backed by
+  Greylock.
 url: https://raw.githubusercontent.com/api-evangelist/bedrock-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Cybersecurity
+- Data Security
+- DSPM
+- Data Governance
+- AI Governance
+- Data Discovery
+- Metadata Lake
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.bedrockdata.ai
+- type: DomainSecurity
+  url: security/bedrock-data-domain-security.yml
+- type: Conformance
+  url: conformance/bedrock-data-conformance.yml
+- type: Compliance
+  url: https://www.bedrockdata.ai/legal
+- type: Blog
+  url: https://www.bedrockdata.ai/blog
+- type: Support
+  url: https://www.bedrockdata.ai/contact
+- type: PrivacyPolicy
+  url: https://www.bedrockdata.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.bedrockdata.ai/legal
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bedrockdataai
+- type: Twitter
+  url: https://x.com/BedrockDataAI
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
