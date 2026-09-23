@@ -1,0 +1,33 @@
+# Front Door AI Index — bedrock-data — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: bedrock-data
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bedrockdata.ai
+  final_host: bedrockdata.ai
+  ownership: own
+  owner: bedrock-data
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 50
+  host_score: 50
+  density: 42.09
+  words: 1188
+  tiers:
+    agentic: 7
+    core: 21
+    model: 22
+  ambiguous: 6
+  top_terms:
+    Bedrock: 22
+    AI: 20
+    agent: 6
+    AI agent: 2
+    copilot: 2
+    LLMs: 1
+    MCP: 1
+    RAG: 1
+    agentic: 1
